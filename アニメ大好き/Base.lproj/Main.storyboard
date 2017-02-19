@@ -41,11 +41,11 @@
             </objects>
             <point key="canvasLocation" x="2015.2" y="138.98050974512745"/>
         </scene>
-        <!--Item-->
+        <!--私心推薦-->
         <scene sceneID="8Pe-Sf-o9j">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dpH-7Q-Qu0" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="cED-IA-tDL"/>
+                    <tabBarItem key="tabBarItem" title="私心推薦" image="私心bar" id="cED-IA-tDL"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="kII-Qe-psq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -137,6 +137,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="xQa-Rb-7VW" kind="show" id="1XT-7L-PAj"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="GF4-3Y-3ZM" detailTextLabel="yaL-G5-vIZ" imageView="qrc-sT-bPJ" rowHeight="69" style="IBUITableViewCellStyleSubtitle" id="y1R-Zy-6Qg">
                                         <rect key="frame" x="0.0" y="138" width="375" height="69"/>
@@ -166,6 +169,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="HbY-AD-LzA" kind="show" id="eyF-Ft-EN2"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="3py-22-pbl" detailTextLabel="Qe8-1o-kxD" imageView="vYH-NO-abE" rowHeight="69" style="IBUITableViewCellStyleSubtitle" id="i0x-LX-zbY">
                                         <rect key="frame" x="0.0" y="207" width="375" height="69"/>
@@ -195,6 +201,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="Khk-Zg-Vtt" kind="show" id="OuU-uP-Kjb"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="XUK-6a-JPp" detailTextLabel="5Jp-Vk-JjO" imageView="EFe-wf-nV2" rowHeight="69" style="IBUITableViewCellStyleSubtitle" id="vnw-iv-gji">
                                         <rect key="frame" x="0.0" y="276" width="375" height="69"/>
@@ -224,6 +233,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="evc-ki-8zQ" kind="show" id="vaV-Ch-FHu"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="YFd-kV-8Tm" detailTextLabel="BTK-tM-20z" imageView="aYf-pe-oUy" rowHeight="69" style="IBUITableViewCellStyleSubtitle" id="EqA-7M-xLp">
                                         <rect key="frame" x="0.0" y="345" width="375" height="69"/>
@@ -253,6 +265,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="Mkn-4P-83r" kind="show" id="KhM-jf-VHk"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -305,10 +320,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="89t-hZ-D0u"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oF8-t7-0Fk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3620" y="53.523238380809602"/>
+            <point key="canvasLocation" x="3654" y="-691"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="2cV-RR-BiB">
@@ -327,11 +343,240 @@
             </objects>
             <point key="canvasLocation" x="109.59999999999999" y="138.98050974512745"/>
         </scene>
+        <!--進擊的巨人-->
+        <scene sceneID="Zn6-5U-Wzo">
+            <objects>
+                <viewController title="進擊的巨人" id="xQa-Rb-7VW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AAG-iL-5el"/>
+                        <viewControllerLayoutGuide type="bottom" id="kMV-YX-iIo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hbG-4o-OdK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="背景" translatesAutoresizingMaskIntoConstraints="NO" id="bnt-zI-J4Q">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="進撃の巨人" translatesAutoresizingMaskIntoConstraints="NO" id="x3q-NZ-be8">
+                                <rect key="frame" x="64" y="161" width="246" height="246"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="進擊的巨人 進擊の巨人" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWK-Eq-RxL">
+                                <rect key="frame" x="119" y="53" width="136" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yMU-yc-SCY">
+                                <rect key="frame" x="55" y="433" width="265" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">107年前（743年），世界上突然出現了以捕食人類為唯一行為的「巨人」。巨人力量強大且有再生能力，人類無法與之抗衡，面臨滅種之災。面臨著生存危機而殘存下來的人類逃到了一個地方，蓋起了三重巨大的城牆包圍此地，令牆外巨人無法入侵。人們在這隔絕的環境裡享受了一百多年的和平。直到主角艾連·葉卡十歲那年，60公尺高的「超大型巨人」突然出現，以壓倒性的力量破壞最外圍的「瑪利亞之牆」(Wall Maria)，其後瞬間消失；牆外的巨人們在破壞的城牆缺口成群的衝進牆內捕食人類，人類只好退到第二重城牆之內。
+艾連在親眼看著人們以及自己的母親被巨人吞食後，僥倖逃入第二重城牆「羅塞之牆」(Wall Rose)內。懷著對巨人無法形容的憎恨，艾連誓言一匹不留殺死所有巨人。瑪利亞城牆崩壞的兩年後，艾連加入104期訓練兵團學習和巨人戰鬥的技術。在訓練兵團的三年，艾連在同期訓練兵裡有著其他人無法比擬的強悍精神力。就在訓練兵團結訓之前，超大型巨人再次出現並衝毀羅塞之牆，艾連隨訓練兵團一同與巨人作戰……</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ia1-Eg-oA3"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pzf-xM-xdP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4286" y="-501"/>
+        </scene>
+        <!--暗殺教室-->
+        <scene sceneID="0UI-EB-nOf">
+            <objects>
+                <viewController title="暗殺教室" id="HbY-AD-LzA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gfu-Bn-Z5P"/>
+                        <viewControllerLayoutGuide type="bottom" id="4BK-0P-7Q6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gjc-rA-IuG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="背景" translatesAutoresizingMaskIntoConstraints="NO" id="KIA-8i-MD4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="暗殺教室" translatesAutoresizingMaskIntoConstraints="NO" id="YzQ-A2-Df1">
+                                <rect key="frame" x="64" y="161" width="246" height="246"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="暗殺教室 暗殺教室" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CP9-uk-NKA">
+                                <rect key="frame" x="119" y="53" width="136" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Wy4-eK-Yi8">
+                                <rect key="frame" x="55" y="433" width="265" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">號稱史上最凶惡的超生物「殺老師」將月球炸掉了七成，並揚言明年要炸掉地球，卻因不明目的而擔任椚丘中學3年E班的教師。各國首腦將暗殺重任交給椚丘中學3年E班，為他們配送特製武器，希望學生們能在一年之內消滅殺老師，報酬是一百億日元。從第二學期開始，國家決定讓暗殺成功者獨得一百億日元報酬，協力團體共享三百億日元報酬。
+全班同學想盡辦法殺死老師，故事就圍繞著這樣非日常的校園生活而展開。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ojs-GO-R3b"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xfO-Ab-aaa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4914" y="-184"/>
+        </scene>
+        <!--七大罪-->
+        <scene sceneID="QPS-Hg-RJV">
+            <objects>
+                <viewController title="七大罪" id="Khk-Zg-Vtt" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PSr-PE-LSo"/>
+                        <viewControllerLayoutGuide type="bottom" id="ixZ-nn-nhU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iVU-X7-bQv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="背景" translatesAutoresizingMaskIntoConstraints="NO" id="H2j-xy-QHF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="七つの大罪" translatesAutoresizingMaskIntoConstraints="NO" id="Ibw-9C-3XK">
+                                <rect key="frame" x="64" y="161" width="246" height="246"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="七大罪 七つの大罪" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="paV-rs-cgw">
+                                <rect key="frame" x="119" y="53" width="136" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="R0e-y3-RNp">
+                                <rect key="frame" x="55" y="433" width="265" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">故事主要發生在虛構的大陸「布里塔尼亞」[3] 上的國家「里昂妮絲王國」，王國的聖騎士們為了準備傳說中的聖戰而進行軍備強化。然而，聖騎士團的諸多暴行使得整個國家民不聊生，他們甚至發動政變囚禁了國王。擔憂著國家現狀的第三王女伊麗莎白·里歐涅絲，將救國的希望寄託於十年前因涉嫌顛覆王國而被通緝的騎士團「七大罪」，並獨自踏上尋找他們的旅程。在註定無果的旅程中，疲憊不堪的伊麗莎白誤入某間酒館，被酒館的主人、一名金髮少年救下，而這名少年正是「七大罪」的團長－－人稱「憤怒之罪 Dragon's Sin 」的梅里奧達斯。在將公主從追兵的危機中解救出來後，他們踏上了拯救國家未來的旅途……。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="S2K-Wu-erf"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="auv-Eu-hk0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4913" y="389"/>
+        </scene>
+        <!--文豪野犬-->
+        <scene sceneID="M7a-c2-Rtg">
+            <objects>
+                <viewController title="文豪野犬" id="evc-ki-8zQ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XBq-AZ-aL1"/>
+                        <viewControllerLayoutGuide type="bottom" id="uHy-Wg-95L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V9o-Tr-CMB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="背景" translatesAutoresizingMaskIntoConstraints="NO" id="wEo-dQ-qxu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="文豪ストレイドッグス" translatesAutoresizingMaskIntoConstraints="NO" id="pq2-PY-2lB">
+                                <rect key="frame" x="64" y="161" width="246" height="246"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sll-6k-t2k">
+                                <rect key="frame" x="55" y="433" width="265" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">被孤兒院趕出的少年中島敦恰巧撞見正在鶴見川「入水自殺」的武裝異能偵探社社員太宰治並把他救出、在一同解決「食人虎事件」後被推薦加入武裝異能偵探社。隨後陸續有港口黑幫成員試圖綁架敦，原來敦在國外異能組織「組合」的要求下被懸賞70億。
+故事中的主要人物皆有特殊異能，而人物名與異能名皆與世界上的知名文豪或其作品有關。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="文豪野犬 文豪ストレイドッグス" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIn-MN-gdR">
+                                <rect key="frame" x="73" y="53" width="229" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HST-1D-bfq"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fd8-H9-yed" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4285.6000000000004" y="575.26236881559225"/>
+        </scene>
+        <!--路人超能100-->
+        <scene sceneID="1QW-5e-Pcb">
+            <objects>
+                <viewController title="路人超能100" id="Mkn-4P-83r" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C2A-tk-Z9E"/>
+                        <viewControllerLayoutGuide type="bottom" id="go0-D9-3kj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dvB-om-uM8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="背景" translatesAutoresizingMaskIntoConstraints="NO" id="jHE-oE-vC2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="モブサイコ100" translatesAutoresizingMaskIntoConstraints="NO" id="FHG-Mk-7Yb">
+                                <rect key="frame" x="64" y="161" width="246" height="246"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nlk-6E-YTw">
+                                <rect key="frame" x="55" y="433" width="265" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">平凡的中學二年級少年影山茂夫，因其微弱的存在感與名字茂夫的諧音而遭人戲稱為「龍套」[1]，但不起眼的他其實是強大的天生超能力者。歷經每一次的成長，龍套開始認為自己的超能力是危險的存在，為了不讓超能力失控，龍套無意識的壓抑著情感。雖然只想平凡的度過每一天，但各種麻煩卻接二連三找上他，隨著被壓抑的情感在內心一點點膨脹，龍套體內積累的力量也蠢蠢欲動。在其心靈導師靈幻新隆的輔導下嘗試與自己的力量共存，然而環繞著其超能力，他逐漸認識其他的超能力者、惡靈、各種組織，而周圍的人和勢力也因為他空前的力量不斷地捲入受傷害又得到救贖，在力量和感情的衝突中，他逐漸學會如何和自己的超能力相處，並必須開始在閉鎖情緒和能力的選擇外，思量如何在危險的世界當中選擇與力量與人們共存。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="路人超能100 モブサイコ100" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WXz-tC-7lu">
+                                <rect key="frame" x="105" y="53" width="165" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oFD-Vl-FgF"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0TS-NI-S0m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3654" y="931"/>
+        </scene>
     </scenes>
     <resources>
         <image name="るろうに剣心" width="184" height="250"/>
+        <image name="モブサイコ100" width="720" height="1010"/>
+        <image name="七つの大罪" width="1170" height="658"/>
+        <image name="文豪ストレイドッグス" width="350" height="489"/>
+        <image name="暗殺教室" width="450" height="430"/>
+        <image name="私心bar" width="30" height="30"/>
         <image name="私心推薦" width="750" height="1344"/>
         <image name="私心推薦icon" width="394" height="394"/>
         <image name="背景" width="750" height="1344"/>
+        <image name="進撃の巨人" width="1389" height="976"/>
     </resources>
 </document>
